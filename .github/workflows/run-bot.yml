@@ -3,7 +3,7 @@ name: Run Buy the Dip Bot
 on:
   schedule:
     - cron: "0 20 * * *" # 22h heure française (20h UTC)
-  workflow_dispatch:
+  workflow_dispatch: # permet de lancer manuellement si besoin
 
 jobs:
   run-bot:
